@@ -13,7 +13,7 @@ public class ESApp {
 
     public static void main(String[] args) {
         ESManager esManager = new ESManager();
-        Client client = esManager.getClient("localhost", 9300).get();
+        Client client = esManager.getClient("localhost", 9300).get(); 
 
         CountService countService = new CountService(client);
         DataService dataService = new DataService(client);

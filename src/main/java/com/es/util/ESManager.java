@@ -10,7 +10,7 @@ import org.elasticsearch.plugin.deletebyquery.DeleteByQueryPlugin;
 import java.net.InetAddress;
 import java.util.Optional;
 
-public class ESManager {
+public class ESManager {  
 
 
 
